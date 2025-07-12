@@ -57,7 +57,12 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-10 h-10 hero-gradient rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">U</span>
+{/*                 <span className="text-white font-bold text-lg">U</span> */}
+                    <img 
+                      src="/favicon.ico" 
+                      alt="Uttam Kumar Pathak" 
+                      className="w-full h-full object-cover rounded-full" 
+                    />
               </div>
               <span className="text-2xl font-bold animate-gradient-text">Uttam Kumar Pathak</span>
             </div>
